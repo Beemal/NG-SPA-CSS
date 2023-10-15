@@ -7,4 +7,6 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'Charlotte Software Solutions';
+
+  currentYear: number = new Date().getFullYear();
 }
